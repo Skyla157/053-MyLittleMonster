@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var monsterImg: MonsterImg!
     @IBOutlet weak var foodImg: DragImg!
     @IBOutlet weak var heartImg: DragImg!
+    @IBOutlet weak var sleepImg: DragImg!
     @IBOutlet weak var penalty3Img: UIImageView!
     @IBOutlet weak var penalty2Img: UIImageView!
     @IBOutlet weak var penalty1Img: UIImageView!
@@ -139,7 +140,7 @@ class ViewController: UIViewController {
     func gameOver() {
         timer.invalidate()
         monsterImg.playDeathAnimation()
-        sfxDeath.play()        
+        sfxDeath.play()
     }
 
 }
