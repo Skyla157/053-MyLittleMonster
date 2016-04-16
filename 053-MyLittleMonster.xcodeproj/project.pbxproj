@@ -8,34 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		A54E1DD51CBDC3BE0051D6C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54E1DD41CBDC3BE0051D6C5 /* AppDelegate.swift */; };
-		A54E1DD71CBDC3BE0051D6C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54E1DD61CBDC3BE0051D6C5 /* ViewController.swift */; };
+		A54E1DD71CBDC3BE0051D6C5 /* RockyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54E1DD61CBDC3BE0051D6C5 /* RockyViewController.swift */; };
 		A54E1DDA1CBDC3BE0051D6C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54E1DD81CBDC3BE0051D6C5 /* Main.storyboard */; };
 		A54E1DDC1CBDC3BE0051D6C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A54E1DDB1CBDC3BE0051D6C5 /* Assets.xcassets */; };
 		A54E1DDF1CBDC3BE0051D6C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54E1DDD1CBDC3BE0051D6C5 /* LaunchScreen.storyboard */; };
 		A54E1DE71CBDCE850051D6C5 /* DragImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54E1DE61CBDCE850051D6C5 /* DragImg.swift */; };
 		A54E1DE91CBDD0F00051D6C5 /* MonsterImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54E1DE81CBDD0F00051D6C5 /* MonsterImg.swift */; };
-		A54E1DEF1CBDDC9D0051D6C5 /* bite.wav in Resources */ = {isa = PBXBuildFile; fileRef = A54E1DEA1CBDDC9D0051D6C5 /* bite.wav */; };
+		A54E1DEF1CBDDC9D0051D6C5 /* sfxRockyBite.wav in Resources */ = {isa = PBXBuildFile; fileRef = A54E1DEA1CBDDC9D0051D6C5 /* sfxRockyBite.wav */; };
 		A54E1DF01CBDDC9D0051D6C5 /* cave-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A54E1DEB1CBDDC9D0051D6C5 /* cave-music.mp3 */; };
-		A54E1DF11CBDDC9D0051D6C5 /* death.wav in Resources */ = {isa = PBXBuildFile; fileRef = A54E1DEC1CBDDC9D0051D6C5 /* death.wav */; };
-		A54E1DF21CBDDC9D0051D6C5 /* heart.wav in Resources */ = {isa = PBXBuildFile; fileRef = A54E1DED1CBDDC9D0051D6C5 /* heart.wav */; };
-		A54E1DF31CBDDC9D0051D6C5 /* skull.wav in Resources */ = {isa = PBXBuildFile; fileRef = A54E1DEE1CBDDC9D0051D6C5 /* skull.wav */; };
+		A54E1DF11CBDDC9D0051D6C5 /* sfxRockyDeath.wav in Resources */ = {isa = PBXBuildFile; fileRef = A54E1DEC1CBDDC9D0051D6C5 /* sfxRockyDeath.wav */; };
+		A54E1DF21CBDDC9D0051D6C5 /* sfxRockyHeart.wav in Resources */ = {isa = PBXBuildFile; fileRef = A54E1DED1CBDDC9D0051D6C5 /* sfxRockyHeart.wav */; };
+		A54E1DF31CBDDC9D0051D6C5 /* sfxSkull.wav in Resources */ = {isa = PBXBuildFile; fileRef = A54E1DEE1CBDDC9D0051D6C5 /* sfxSkull.wav */; };
+		A5E285F81CC1B3C300CED4BA /* sfxRockySnore.wav in Resources */ = {isa = PBXBuildFile; fileRef = A5E285F71CC1B3C300CED4BA /* sfxRockySnore.wav */; };
+		A5E285FC1CC1B96F00CED4BA /* RattyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E285FB1CC1B96F00CED4BA /* RattyViewController.swift */; };
+		A5E285FE1CC1B9A300CED4BA /* MasterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E285FD1CC1B9A300CED4BA /* MasterVC.swift */; };
+		A5E286041CC1DEA400CED4BA /* sfxRattyDeath.wav in Resources */ = {isa = PBXBuildFile; fileRef = A5E286011CC1DEA400CED4BA /* sfxRattyDeath.wav */; };
+		A5E286051CC1DEA400CED4BA /* sfxRattyBite.wav in Resources */ = {isa = PBXBuildFile; fileRef = A5E286021CC1DEA400CED4BA /* sfxRattyBite.wav */; };
+		A5E286061CC1DEA400CED4BA /* sfxRattyHeart.wav in Resources */ = {isa = PBXBuildFile; fileRef = A5E286031CC1DEA400CED4BA /* sfxRattyHeart.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A54E1DD11CBDC3BD0051D6C5 /* 053-MyLittleMonster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "053-MyLittleMonster.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A54E1DD41CBDC3BE0051D6C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A54E1DD61CBDC3BE0051D6C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A54E1DD61CBDC3BE0051D6C5 /* RockyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockyViewController.swift; sourceTree = "<group>"; };
 		A54E1DD91CBDC3BE0051D6C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A54E1DDB1CBDC3BE0051D6C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A54E1DDE1CBDC3BE0051D6C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A54E1DE01CBDC3BE0051D6C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A54E1DE61CBDCE850051D6C5 /* DragImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragImg.swift; sourceTree = "<group>"; };
 		A54E1DE81CBDD0F00051D6C5 /* MonsterImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterImg.swift; sourceTree = "<group>"; };
-		A54E1DEA1CBDDC9D0051D6C5 /* bite.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bite.wav; sourceTree = "<group>"; };
+		A54E1DEA1CBDDC9D0051D6C5 /* sfxRockyBite.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfxRockyBite.wav; sourceTree = "<group>"; };
 		A54E1DEB1CBDDC9D0051D6C5 /* cave-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cave-music.mp3"; sourceTree = "<group>"; };
-		A54E1DEC1CBDDC9D0051D6C5 /* death.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = death.wav; sourceTree = "<group>"; };
-		A54E1DED1CBDDC9D0051D6C5 /* heart.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = heart.wav; sourceTree = "<group>"; };
-		A54E1DEE1CBDDC9D0051D6C5 /* skull.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = skull.wav; sourceTree = "<group>"; };
+		A54E1DEC1CBDDC9D0051D6C5 /* sfxRockyDeath.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfxRockyDeath.wav; sourceTree = "<group>"; };
+		A54E1DED1CBDDC9D0051D6C5 /* sfxRockyHeart.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfxRockyHeart.wav; sourceTree = "<group>"; };
+		A54E1DEE1CBDDC9D0051D6C5 /* sfxSkull.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfxSkull.wav; sourceTree = "<group>"; };
+		A5E285F71CC1B3C300CED4BA /* sfxRockySnore.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfxRockySnore.wav; sourceTree = "<group>"; };
+		A5E285FB1CC1B96F00CED4BA /* RattyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RattyViewController.swift; path = ../RattyViewController.swift; sourceTree = "<group>"; };
+		A5E285FD1CC1B9A300CED4BA /* MasterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterVC.swift; sourceTree = "<group>"; };
+		A5E286011CC1DEA400CED4BA /* sfxRattyDeath.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfxRattyDeath.wav; sourceTree = "<group>"; };
+		A5E286021CC1DEA400CED4BA /* sfxRattyBite.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfxRattyBite.wav; sourceTree = "<group>"; };
+		A5E286031CC1DEA400CED4BA /* sfxRattyHeart.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfxRattyHeart.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,14 +80,12 @@
 		A54E1DD31CBDC3BD0051D6C5 /* 053-MyLittleMonster */ = {
 			isa = PBXGroup;
 			children = (
-				A54E1DEA1CBDDC9D0051D6C5 /* bite.wav */,
-				A54E1DEB1CBDDC9D0051D6C5 /* cave-music.mp3 */,
-				A54E1DEC1CBDDC9D0051D6C5 /* death.wav */,
-				A54E1DED1CBDDC9D0051D6C5 /* heart.wav */,
-				A54E1DEE1CBDDC9D0051D6C5 /* skull.wav */,
 				A54E1DD41CBDC3BE0051D6C5 /* AppDelegate.swift */,
-				A54E1DD61CBDC3BE0051D6C5 /* ViewController.swift */,
 				A54E1DE81CBDD0F00051D6C5 /* MonsterImg.swift */,
+				A5E286071CC1DEAD00CED4BA /* SFX */,
+				A5E285FB1CC1B96F00CED4BA /* RattyViewController.swift */,
+				A54E1DD61CBDC3BE0051D6C5 /* RockyViewController.swift */,
+				A5E285FD1CC1B9A300CED4BA /* MasterVC.swift */,
 				A54E1DD81CBDC3BE0051D6C5 /* Main.storyboard */,
 				A54E1DDB1CBDC3BE0051D6C5 /* Assets.xcassets */,
 				A54E1DDD1CBDC3BE0051D6C5 /* LaunchScreen.storyboard */,
@@ -83,6 +93,22 @@
 				A54E1DE61CBDCE850051D6C5 /* DragImg.swift */,
 			);
 			path = "053-MyLittleMonster";
+			sourceTree = "<group>";
+		};
+		A5E286071CC1DEAD00CED4BA /* SFX */ = {
+			isa = PBXGroup;
+			children = (
+				A5E285F71CC1B3C300CED4BA /* sfxRockySnore.wav */,
+				A54E1DEA1CBDDC9D0051D6C5 /* sfxRockyBite.wav */,
+				A5E286011CC1DEA400CED4BA /* sfxRattyDeath.wav */,
+				A5E286021CC1DEA400CED4BA /* sfxRattyBite.wav */,
+				A5E286031CC1DEA400CED4BA /* sfxRattyHeart.wav */,
+				A54E1DEB1CBDDC9D0051D6C5 /* cave-music.mp3 */,
+				A54E1DEC1CBDDC9D0051D6C5 /* sfxRockyDeath.wav */,
+				A54E1DED1CBDDC9D0051D6C5 /* sfxRockyHeart.wav */,
+				A54E1DEE1CBDDC9D0051D6C5 /* sfxSkull.wav */,
+			);
+			name = SFX;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,12 +169,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A54E1DF31CBDDC9D0051D6C5 /* skull.wav in Resources */,
-				A54E1DEF1CBDDC9D0051D6C5 /* bite.wav in Resources */,
-				A54E1DF11CBDDC9D0051D6C5 /* death.wav in Resources */,
-				A54E1DF21CBDDC9D0051D6C5 /* heart.wav in Resources */,
+				A5E286051CC1DEA400CED4BA /* sfxRattyBite.wav in Resources */,
+				A5E286041CC1DEA400CED4BA /* sfxRattyDeath.wav in Resources */,
+				A54E1DF31CBDDC9D0051D6C5 /* sfxSkull.wav in Resources */,
+				A5E286061CC1DEA400CED4BA /* sfxRattyHeart.wav in Resources */,
+				A54E1DEF1CBDDC9D0051D6C5 /* sfxRockyBite.wav in Resources */,
+				A54E1DF11CBDDC9D0051D6C5 /* sfxRockyDeath.wav in Resources */,
+				A54E1DF21CBDDC9D0051D6C5 /* sfxRockyHeart.wav in Resources */,
 				A54E1DF01CBDDC9D0051D6C5 /* cave-music.mp3 in Resources */,
 				A54E1DDF1CBDC3BE0051D6C5 /* LaunchScreen.storyboard in Resources */,
+				A5E285F81CC1B3C300CED4BA /* sfxRockySnore.wav in Resources */,
 				A54E1DDC1CBDC3BE0051D6C5 /* Assets.xcassets in Resources */,
 				A54E1DDA1CBDC3BE0051D6C5 /* Main.storyboard in Resources */,
 			);
@@ -161,9 +191,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5E285FE1CC1B9A300CED4BA /* MasterVC.swift in Sources */,
 				A54E1DE91CBDD0F00051D6C5 /* MonsterImg.swift in Sources */,
 				A54E1DE71CBDCE850051D6C5 /* DragImg.swift in Sources */,
-				A54E1DD71CBDC3BE0051D6C5 /* ViewController.swift in Sources */,
+				A54E1DD71CBDC3BE0051D6C5 /* RockyViewController.swift in Sources */,
+				A5E285FC1CC1B96F00CED4BA /* RattyViewController.swift in Sources */,
 				A54E1DD51CBDC3BE0051D6C5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,6 +346,7 @@
 				A54E1DE51CBDC3BE0051D6C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
