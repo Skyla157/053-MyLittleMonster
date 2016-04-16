@@ -34,6 +34,7 @@ class RattyViewController: MasterViewController {
         
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "itemDroppedOnCharacter:", name: "onTargetDropped", object: nil)
         
+        randomItem()
         startTimer()
     }
     
@@ -83,6 +84,10 @@ class RattyViewController: MasterViewController {
             }
         }
         
+        randomItem()
+    }
+    
+    func randomItem() {
         let rand = arc4random_uniform(3)
         
         if rand == 0 {
@@ -110,7 +115,6 @@ class RattyViewController: MasterViewController {
         
         currentItem = rand
         monsterHappy = false
-        
     }
     
     func gameOver() {

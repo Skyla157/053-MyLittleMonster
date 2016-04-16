@@ -32,6 +32,8 @@ class RockyViewController: MasterViewController {
         penalty2Img.alpha = DIM_ALPHA
         penalty3Img.alpha = DIM_ALPHA
         
+        randomItem()
+        
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "itemDroppedOnCharacter:", name: "onTargetDropped", object: nil)
         
         startTimer()
@@ -83,6 +85,10 @@ class RockyViewController: MasterViewController {
             }
         }
         
+        randomItem()
+    }
+    
+    func randomItem() {
         let rand = arc4random_uniform(3)
         
         if rand == 0 {
@@ -110,8 +116,8 @@ class RockyViewController: MasterViewController {
         
         currentItem = rand
         monsterHappy = false
-        
     }
+
     
     func gameOver() {
         rockyImg.playDeathAnimation("rocky")
