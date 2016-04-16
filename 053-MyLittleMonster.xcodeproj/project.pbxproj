@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A50994581CC20D1900915FB8 /* RattyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50994571CC20D1900915FB8 /* RattyViewController.swift */; };
+		A509945A1CC20D6000915FB8 /* sfxRockyHeart.wav in Resources */ = {isa = PBXBuildFile; fileRef = A50994591CC20D6000915FB8 /* sfxRockyHeart.wav */; };
+		A509945C1CC2109100915FB8 /* sfxRattySnore.wav in Resources */ = {isa = PBXBuildFile; fileRef = A509945B1CC2109100915FB8 /* sfxRattySnore.wav */; };
 		A54E1DD51CBDC3BE0051D6C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54E1DD41CBDC3BE0051D6C5 /* AppDelegate.swift */; };
 		A54E1DD71CBDC3BE0051D6C5 /* RockyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54E1DD61CBDC3BE0051D6C5 /* RockyViewController.swift */; };
 		A54E1DDA1CBDC3BE0051D6C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54E1DD81CBDC3BE0051D6C5 /* Main.storyboard */; };
@@ -17,10 +20,8 @@
 		A54E1DEF1CBDDC9D0051D6C5 /* sfxRockyBite.wav in Resources */ = {isa = PBXBuildFile; fileRef = A54E1DEA1CBDDC9D0051D6C5 /* sfxRockyBite.wav */; };
 		A54E1DF01CBDDC9D0051D6C5 /* cave-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A54E1DEB1CBDDC9D0051D6C5 /* cave-music.mp3 */; };
 		A54E1DF11CBDDC9D0051D6C5 /* sfxRockyDeath.wav in Resources */ = {isa = PBXBuildFile; fileRef = A54E1DEC1CBDDC9D0051D6C5 /* sfxRockyDeath.wav */; };
-		A54E1DF21CBDDC9D0051D6C5 /* sfxRockyHeart.wav in Resources */ = {isa = PBXBuildFile; fileRef = A54E1DED1CBDDC9D0051D6C5 /* sfxRockyHeart.wav */; };
 		A54E1DF31CBDDC9D0051D6C5 /* sfxSkull.wav in Resources */ = {isa = PBXBuildFile; fileRef = A54E1DEE1CBDDC9D0051D6C5 /* sfxSkull.wav */; };
 		A5E285F81CC1B3C300CED4BA /* sfxRockySnore.wav in Resources */ = {isa = PBXBuildFile; fileRef = A5E285F71CC1B3C300CED4BA /* sfxRockySnore.wav */; };
-		A5E285FC1CC1B96F00CED4BA /* RattyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E285FB1CC1B96F00CED4BA /* RattyViewController.swift */; };
 		A5E285FE1CC1B9A300CED4BA /* MasterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E285FD1CC1B9A300CED4BA /* MasterVC.swift */; };
 		A5E286041CC1DEA400CED4BA /* sfxRattyDeath.wav in Resources */ = {isa = PBXBuildFile; fileRef = A5E286011CC1DEA400CED4BA /* sfxRattyDeath.wav */; };
 		A5E286051CC1DEA400CED4BA /* sfxRattyBite.wav in Resources */ = {isa = PBXBuildFile; fileRef = A5E286021CC1DEA400CED4BA /* sfxRattyBite.wav */; };
@@ -28,6 +29,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A50994571CC20D1900915FB8 /* RattyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RattyViewController.swift; sourceTree = "<group>"; };
+		A50994591CC20D6000915FB8 /* sfxRockyHeart.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfxRockyHeart.wav; sourceTree = "<group>"; };
+		A509945B1CC2109100915FB8 /* sfxRattySnore.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfxRattySnore.wav; sourceTree = "<group>"; };
 		A54E1DD11CBDC3BD0051D6C5 /* 053-MyLittleMonster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "053-MyLittleMonster.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A54E1DD41CBDC3BE0051D6C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A54E1DD61CBDC3BE0051D6C5 /* RockyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockyViewController.swift; sourceTree = "<group>"; };
@@ -40,10 +44,8 @@
 		A54E1DEA1CBDDC9D0051D6C5 /* sfxRockyBite.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfxRockyBite.wav; sourceTree = "<group>"; };
 		A54E1DEB1CBDDC9D0051D6C5 /* cave-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cave-music.mp3"; sourceTree = "<group>"; };
 		A54E1DEC1CBDDC9D0051D6C5 /* sfxRockyDeath.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfxRockyDeath.wav; sourceTree = "<group>"; };
-		A54E1DED1CBDDC9D0051D6C5 /* sfxRockyHeart.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfxRockyHeart.wav; sourceTree = "<group>"; };
 		A54E1DEE1CBDDC9D0051D6C5 /* sfxSkull.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfxSkull.wav; sourceTree = "<group>"; };
 		A5E285F71CC1B3C300CED4BA /* sfxRockySnore.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfxRockySnore.wav; sourceTree = "<group>"; };
-		A5E285FB1CC1B96F00CED4BA /* RattyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RattyViewController.swift; path = ../RattyViewController.swift; sourceTree = "<group>"; };
 		A5E285FD1CC1B9A300CED4BA /* MasterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterVC.swift; sourceTree = "<group>"; };
 		A5E286011CC1DEA400CED4BA /* sfxRattyDeath.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfxRattyDeath.wav; sourceTree = "<group>"; };
 		A5E286021CC1DEA400CED4BA /* sfxRattyBite.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sfxRattyBite.wav; sourceTree = "<group>"; };
@@ -83,7 +85,7 @@
 				A54E1DD41CBDC3BE0051D6C5 /* AppDelegate.swift */,
 				A54E1DE81CBDD0F00051D6C5 /* MonsterImg.swift */,
 				A5E286071CC1DEAD00CED4BA /* SFX */,
-				A5E285FB1CC1B96F00CED4BA /* RattyViewController.swift */,
+				A50994571CC20D1900915FB8 /* RattyViewController.swift */,
 				A54E1DD61CBDC3BE0051D6C5 /* RockyViewController.swift */,
 				A5E285FD1CC1B9A300CED4BA /* MasterVC.swift */,
 				A54E1DD81CBDC3BE0051D6C5 /* Main.storyboard */,
@@ -98,14 +100,15 @@
 		A5E286071CC1DEAD00CED4BA /* SFX */ = {
 			isa = PBXGroup;
 			children = (
-				A5E285F71CC1B3C300CED4BA /* sfxRockySnore.wav */,
-				A54E1DEA1CBDDC9D0051D6C5 /* sfxRockyBite.wav */,
 				A5E286011CC1DEA400CED4BA /* sfxRattyDeath.wav */,
 				A5E286021CC1DEA400CED4BA /* sfxRattyBite.wav */,
 				A5E286031CC1DEA400CED4BA /* sfxRattyHeart.wav */,
+				A509945B1CC2109100915FB8 /* sfxRattySnore.wav */,
 				A54E1DEB1CBDDC9D0051D6C5 /* cave-music.mp3 */,
+				A5E285F71CC1B3C300CED4BA /* sfxRockySnore.wav */,
 				A54E1DEC1CBDDC9D0051D6C5 /* sfxRockyDeath.wav */,
-				A54E1DED1CBDDC9D0051D6C5 /* sfxRockyHeart.wav */,
+				A54E1DEA1CBDDC9D0051D6C5 /* sfxRockyBite.wav */,
+				A50994591CC20D6000915FB8 /* sfxRockyHeart.wav */,
 				A54E1DEE1CBDDC9D0051D6C5 /* sfxSkull.wav */,
 			);
 			name = SFX;
@@ -176,10 +179,11 @@
 				A5E286061CC1DEA400CED4BA /* sfxRattyHeart.wav in Resources */,
 				A54E1DEF1CBDDC9D0051D6C5 /* sfxRockyBite.wav in Resources */,
 				A54E1DF11CBDDC9D0051D6C5 /* sfxRockyDeath.wav in Resources */,
-				A54E1DF21CBDDC9D0051D6C5 /* sfxRockyHeart.wav in Resources */,
+				A509945A1CC20D6000915FB8 /* sfxRockyHeart.wav in Resources */,
 				A54E1DF01CBDDC9D0051D6C5 /* cave-music.mp3 in Resources */,
 				A54E1DDF1CBDC3BE0051D6C5 /* LaunchScreen.storyboard in Resources */,
 				A5E285F81CC1B3C300CED4BA /* sfxRockySnore.wav in Resources */,
+				A509945C1CC2109100915FB8 /* sfxRattySnore.wav in Resources */,
 				A54E1DDC1CBDC3BE0051D6C5 /* Assets.xcassets in Resources */,
 				A54E1DDA1CBDC3BE0051D6C5 /* Main.storyboard in Resources */,
 			);
@@ -193,10 +197,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5E285FE1CC1B9A300CED4BA /* MasterVC.swift in Sources */,
+				A50994581CC20D1900915FB8 /* RattyViewController.swift in Sources */,
 				A54E1DE91CBDD0F00051D6C5 /* MonsterImg.swift in Sources */,
 				A54E1DE71CBDCE850051D6C5 /* DragImg.swift in Sources */,
 				A54E1DD71CBDC3BE0051D6C5 /* RockyViewController.swift in Sources */,
-				A5E285FC1CC1B96F00CED4BA /* RattyViewController.swift in Sources */,
 				A54E1DD51CBDC3BE0051D6C5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

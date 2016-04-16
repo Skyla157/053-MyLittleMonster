@@ -54,7 +54,7 @@ class RattyViewController: MasterViewController {
         } else if currentItem == 1 {
             playSoundEffect("sfxRattyBite.wav")
         } else {
-            playSoundEffect("sfxRockySnore.wav")
+            playSoundEffect("sfxRattySnore.wav")
         }
     }
     
